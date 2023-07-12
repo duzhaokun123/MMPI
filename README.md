@@ -2,4 +2,4 @@
 
 修改自 https://github.com/MMPI-CHN/MMPI-CHN.github.io
 
-部署在 
+部署在 https://duzhaokun123.github.io/MMPI/
