@@ -162,6 +162,9 @@ function update_score_side(form) {
     let Si = tscoreArray[16]
 
     document.getElementById("side_score").innerHTML = `
+    <p> T: ${t_cnt}</p>
+    <p> F: ${f_cnt}</p>
+    <p> ?: ${cs_cnt}</p>
     <p> L: ${L} </p>
     <p> F: ${F} </p>
     <p> K: ${K} </p>

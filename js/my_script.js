@@ -1024,7 +1024,7 @@ function showModal() {
       <span class="modal-close" onclick="hideModal()"></span>
       <p>修改自 <a href="https://github.com/MMPI-CHN/MMPI-CHN.github.io" >https://github.com/MMPI-CHN/MMPI-CHN.github.io</a></p>
       <p>源码 <a href="https://github.com/duzhaokun123/MMPI">https://github.com/duzhaokun123/MMPI</a></p>
-      <p>结果将在每个选项修改后显示在右侧</p>
+      <p>效度量表与临床量表将在每个选项修改后显示在右侧</p>
       <h1 style="color: red">仅供娱乐</h1>
       <input class="my_button" type="button" value="我已认真阅读并知晓，可以开始测验" onclick="hideModal();">
     </div>
