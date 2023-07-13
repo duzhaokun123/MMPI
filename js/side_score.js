@@ -180,3 +180,28 @@ function update_score_side(form) {
     <p> Si: ${Si} </p>
     `
 }
+
+function heightToTop(ele) {
+    //ele为指定跳转到该位置的DOM节点
+    let root = document.body;
+    let height = 0;
+    do {
+        height += ele.offsetTop;
+        ele = ele.offsetParent;
+    } while (ele !== root)
+    return height;
+}
+
+function check_miss(form) {
+    for (let i = 1; i < questions.length; ++i) {
+        let rbv = radio_value(form.elements["Q" + i]);
+        if (!rbv) {
+            window.scrollTo({
+                top: heightToTop(document.getElementById("Q" + i)) - 100,
+                behavior: "smooth"
+            })
+            break
+        }
+    }
+    alert("无漏题")
+}
