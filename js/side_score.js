@@ -200,7 +200,7 @@ function check_miss(form) {
                 top: heightToTop(document.getElementById("Q" + i)) - 100,
                 behavior: "smooth"
             })
-            break
+            return
         }
     }
     alert("无漏题")
