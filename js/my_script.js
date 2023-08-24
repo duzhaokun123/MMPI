@@ -278,16 +278,6 @@ function score_rb(form) {
     }
     score();
 
-    // 20230525凌晨加的
-    // 创建图片元素
-    var img = document.createElement('img');
-    img.src = './money.png'; // 替换为要显示的图片路径
-
-    // 设置图片样式
-    img.style.width = '15%'; // 设置宽度为50%
-    img.style.display = 'block'; // 设置为块级元素
-    img.style.margin = 'auto'; // 设置居中对齐
-
     // 创建注释性文字元素
     var span = document.createElement('span');
     var span2 = document.createElement('span2');
@@ -306,16 +296,6 @@ function score_rb(form) {
     span2.style.color = '#B0C4DE'; // 设置文字颜色
     span2.style.fontFamily = 'KaiTi'; // 设置字体为楷体
 
-    // 插入三个空白行
-    document.body.appendChild(document.createElement('br'));
-    document.body.appendChild(document.createElement('br'));
-    document.body.appendChild(document.createElement('br'));
-
-    // 将图片元素添加到文档中
-    document.body.appendChild(img);
-
-    document.body.appendChild(document.createElement('br'));
-    document.body.appendChild(document.createElement('br'));
     document.body.appendChild(span);
     document.body.appendChild(span2);
 }
